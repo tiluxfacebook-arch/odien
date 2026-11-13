@@ -13,9 +13,9 @@ window.COD_CONFIG = {
   // Gói '1' được chọn sẵn (mặc định chủ shop). Gói '2' gắn nhãn "Phổ biến nhất" trong HTML.
   // Mỗi lần đổi giá ở đây phải đổi luôn chữ giá trong index.html (hero, bảng giá, form, FAQ, JSON-LD) — check_landing.py sẽ báo nếu lệch.
   PACKAGES: [
-    { key: '1', label: 'Ổ 3 lỗ', qty: 1, price: 149000, compare: null, note: 'Phí ship 20.000đ', ship: 20000 },
-    { key: '2', label: 'Ổ 4 lỗ', qty: 1, price: 179000, compare: null, note: 'Phí ship 20.000đ', ship: 20000, popular: true },
-    { key: '3', label: 'Ổ 6 lỗ', qty: 1, price: 199000, compare: null, note: 'Phí ship 20.000đ', ship: 20000 }
+    { key: '1', label: 'Ổ 3 lỗ', qty: 1, price: 149000, compare: 298000, note: 'Phí ship 20.000đ', ship: 20000 },
+    { key: '2', label: 'Ổ 4 lỗ', qty: 1, price: 179000, compare: 358000, note: 'Phí ship 20.000đ', ship: 20000, popular: true },
+    { key: '3', label: 'Ổ 6 lỗ', qty: 1, price: 199000, compare: 398000, note: 'Phí ship 20.000đ', ship: 20000 }
   ],
   UPSELL: null, // ví dụ { id: 'SKU-UP', name: 'Thêm 1 cái tặng người thân', price: 149000 } — luôn là lựa chọn khách tự tick
   HOTLINE: '0395018127',
